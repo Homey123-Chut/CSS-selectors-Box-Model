@@ -1,0 +1,75 @@
+/* MANDATORY CHALLENGES */
+
+/* 1. Set background color of <body> to #bdc3c7 */
+body {
+    background-color: #bdc3c7;
+  }
+  
+  /* 2. Set color of <h1> element to #9b59b6 */
+  h1 {
+    color: #9b59b6;
+  }
+  
+  /* 3. Set color of all <h2> elements to orange */
+  h2 {
+    color: rgb(248, 162, 2);
+  }
+  
+  /* 4. Set color of all <li> elements to a specific blue */
+  li {
+    color: #1e90ff; /* You can choose your preferred blue here */
+  }
+  
+  /* 5. Set background of every <p> element to yellow */
+  p {
+    background-color: yellow;
+  }
+  
+  /* 6. Set a 3px red border for all inputs */
+  input {
+    border: 3px solid red;
+  }
+  
+  /* 7. Set white background for elements with the class 'hello' */
+  .hello {
+    background-color: white;
+  }
+  
+  /* 8. Set a 2px solid blue border for the element with id 'special' */
+  #special {
+    border: 2px solid rgb(0, 0, 255); /* Choose any RGB blue */
+  }
+  
+  /* BONUS CHALLENGES */
+  
+  /* 1. Make all <p> elements inside <div>s have a font size of 25px */
+  div p {
+    font-size: 25px;
+  }
+  
+  /* 2. Set a gray background for text input elements only */
+  input[type="text"] {
+    background-color: gray;
+  }
+  
+  /* 3. Apply a left margin of 50px for checked checkboxes */
+  input[type="checkbox"]:checked {
+    margin-left: 50px;
+  }
+  
+  /* 4. Make all <label> elements uppercase */
+  label {
+    text-transform: uppercase;
+  }
+  
+  /* 5. Set the first letter of the element with id 'special' to green and 100px font size */
+  #special::first-letter {
+    color: green;
+    font-size: 100px;
+  }
+  
+  /* 6. Change <h1> color to blue on hover */
+  h1:hover {
+    color: blue;
+  }
+  
